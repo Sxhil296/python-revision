@@ -42,3 +42,9 @@ h, i , j = fruits
 print(h)
 print(i)
 print(j)
+
+
+x = "Python "
+y = "is "
+z = "awesome"
+print(x + y + z)
