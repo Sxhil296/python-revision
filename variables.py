@@ -23,5 +23,22 @@ name = "Python"
 name = 'Python'
 
 #Variable names are case-sensitive.
- c = 10
- C = "Sally"
+ # c = 10
+ # C = "Sally"
+
+
+#Many Values to Multiple Variables
+e, f, g = "elephant", "frog", "girl"
+print(e)
+print(f)
+print(g)
+
+#One Value to Multiple Variables
+x = y = z = "Orange"
+
+#unpack a collection
+fruits = ["apple", "mango", "grapes"]
+h, i , j = fruits
+print(h)
+print(i)
+print(j)
